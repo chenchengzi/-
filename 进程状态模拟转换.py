@@ -47,7 +47,7 @@ def show_num():
         print('***此时处于创建状态的进程数为%d***\n'%(len(creat)))
 
 def jiance():
-    global resource1, resource2
+    global resource1, resource2#检测当前可用资源
     global need1,need2
 
 
